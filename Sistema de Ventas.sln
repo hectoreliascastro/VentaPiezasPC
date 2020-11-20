@@ -15,11 +15,30 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEnlaceDatos", "CapaEnla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa de Presentacion", "Capa de Presentacion\Capa de Presentacion.csproj", "{F54C7316-903E-4543-840A-9CFB39CF275A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "presentacion", "..\reporteriaventas\presentacion\presentacion.csproj", "{1B6AC893-BFF3-4453-9CE3-D895F78B19E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reporteria", "Reporteria", "{2F85248B-5109-40A6-81E5-F027CE42DF50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "..\reporteriaventas\dominio\dominio.csproj", "{AE585039-F948-4E10-A787-62CA9CB8D901}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dominio", "dominio", "{E9238475-18D2-4A4F-A248-A2A26494254E}"
+	ProjectSection(SolutionItems) = preProject
+		dominio\NetSalesByPeriod.cs = dominio\NetSalesByPeriod.cs
+		dominio\SalesListing.cs = dominio\SalesListing.cs
+		dominio\SalesReport.cs = dominio\SalesReport.cs
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "accesoadatos", "..\reporteriaventas\accesoadatos\accesoadatos.csproj", "{C133F07F-1479-4F2D-9E00-F05153B0A6E4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentacion", "presentacion", "{210BF54C-4384-4103-B490-3BA258F52FF7}"
+	ProjectSection(SolutionItems) = preProject
+		presentacion\App.config = presentacion\App.config
+		presentacion\FrmReporte.cs = presentacion\FrmReporte.cs
+		presentacion\FrmReporte.Designer.cs = presentacion\FrmReporte.Designer.cs
+		presentacion\FrmReporte.resx = presentacion\FrmReporte.resx
+		presentacion\packages.config = presentacion\packages.config
+		presentacion\Program.cs = presentacion\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "accesoadatos", "accesoadatos", "{899EB21E-AAC3-436F-A740-CCAB3C51AC85}"
+	ProjectSection(SolutionItems) = preProject
+		accesoadatos\ConexionSql.cs = accesoadatos\ConexionSql.cs
+		accesoadatos\OrderDao.cs = accesoadatos\OrderDao.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,18 +58,6 @@ Global
 		{F54C7316-903E-4543-840A-9CFB39CF275A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F54C7316-903E-4543-840A-9CFB39CF275A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F54C7316-903E-4543-840A-9CFB39CF275A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B6AC893-BFF3-4453-9CE3-D895F78B19E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B6AC893-BFF3-4453-9CE3-D895F78B19E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B6AC893-BFF3-4453-9CE3-D895F78B19E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B6AC893-BFF3-4453-9CE3-D895F78B19E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE585039-F948-4E10-A787-62CA9CB8D901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE585039-F948-4E10-A787-62CA9CB8D901}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE585039-F948-4E10-A787-62CA9CB8D901}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE585039-F948-4E10-A787-62CA9CB8D901}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C133F07F-1479-4F2D-9E00-F05153B0A6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C133F07F-1479-4F2D-9E00-F05153B0A6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C133F07F-1479-4F2D-9E00-F05153B0A6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C133F07F-1479-4F2D-9E00-F05153B0A6E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,9 +66,9 @@ Global
 		{8087117A-5BEA-4EB0-925A-407B17AB7983} = {528A2F6A-6578-412A-B401-4E00ADEB31BA}
 		{B7008032-AC5E-4216-9234-54B3E6CA3BDA} = {95AC2A1C-3806-49A2-8D77-8AB294A44E55}
 		{F54C7316-903E-4543-840A-9CFB39CF275A} = {D3403F9F-B16F-4BDE-85FA-73E3BA5440A9}
-		{1B6AC893-BFF3-4453-9CE3-D895F78B19E6} = {D3403F9F-B16F-4BDE-85FA-73E3BA5440A9}
-		{AE585039-F948-4E10-A787-62CA9CB8D901} = {D3403F9F-B16F-4BDE-85FA-73E3BA5440A9}
-		{C133F07F-1479-4F2D-9E00-F05153B0A6E4} = {D3403F9F-B16F-4BDE-85FA-73E3BA5440A9}
+		{E9238475-18D2-4A4F-A248-A2A26494254E} = {2F85248B-5109-40A6-81E5-F027CE42DF50}
+		{210BF54C-4384-4103-B490-3BA258F52FF7} = {2F85248B-5109-40A6-81E5-F027CE42DF50}
+		{899EB21E-AAC3-436F-A740-CCAB3C51AC85} = {2F85248B-5109-40A6-81E5-F027CE42DF50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2AF15FD-6B94-4D5A-BF41-B743F2D31B8C}

@@ -225,18 +225,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\reporteriaventas\accesoadatos\accesoadatos.csproj">
-      <Project>{c133f07f-1479-4f2d-9e00-f05153b0a6e4}</Project>
-      <Name>accesoadatos</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\reporteriaventas\dominio\dominio.csproj">
-      <Project>{ae585039-f948-4e10-a787-62ca9cb8d901}</Project>
-      <Name>dominio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\reporteriaventas\presentacion\presentacion.csproj">
-      <Project>{1b6ac893-bff3-4453-9ce3-d895f78b19e6}</Project>
-      <Name>presentacion</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CapaLogicaNegocio\CapaLogicaNegocio.csproj">
       <Project>{8087117a-5bea-4eb0-925a-407b17ab7983}</Project>
       <Name>CapaLogicaNegocio</Name>
